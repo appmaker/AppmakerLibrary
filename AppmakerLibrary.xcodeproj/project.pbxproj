@@ -21,6 +21,7 @@
 		43856E8613D6CDD7009E4796 /* AppmakerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 43856E8113D6CDD7009E4796 /* AppmakerHelper.h */; };
 		43856E8713D6CDD7009E4796 /* AppmakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8213D6CDD7009E4796 /* AppmakerHelper.m */; };
 		43856E8813D6CDD7009E4796 /* AppmakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8213D6CDD7009E4796 /* AppmakerHelper.m */; };
+		43856E8C13D6D6ED009E4796 /* AMAlertViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8B13D6D6ED009E4796 /* AMAlertViewTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		43856E8013D6CDD7009E4796 /* AMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAlertView.m; sourceTree = "<group>"; };
 		43856E8113D6CDD7009E4796 /* AppmakerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppmakerHelper.h; sourceTree = "<group>"; };
 		43856E8213D6CDD7009E4796 /* AppmakerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppmakerHelper.m; sourceTree = "<group>"; };
+		43856E8A13D6D6ED009E4796 /* AMAlertViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAlertViewTest.h; sourceTree = "<group>"; };
+		43856E8B13D6D6ED009E4796 /* AMAlertViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAlertViewTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				43856E6D13D6CD7F009E4796 /* AppmakerLibraryTests.h */,
 				43856E6F13D6CD7F009E4796 /* AppmakerLibraryTests.m */,
 				43856E6713D6CD7F009E4796 /* Supporting Files */,
+				43856E8A13D6D6ED009E4796 /* AMAlertViewTest.h */,
+				43856E8B13D6D6ED009E4796 /* AMAlertViewTest.m */,
 			);
 			path = AppmakerLibraryTests;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				43856E7013D6CD7F009E4796 /* AppmakerLibraryTests.m in Sources */,
 				43856E8513D6CDD7009E4796 /* AMAlertView.m in Sources */,
 				43856E8813D6CDD7009E4796 /* AppmakerHelper.m in Sources */,
+				43856E8C13D6D6ED009E4796 /* AMAlertViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
