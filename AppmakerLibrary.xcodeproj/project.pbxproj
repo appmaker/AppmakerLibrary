@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43856E5413D6CD7F009E4796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43856E5313D6CD7F009E4796 /* Foundation.framework */; };
+		43856E5F13D6CD7F009E4796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43856E5E13D6CD7F009E4796 /* UIKit.framework */; };
+		43856E6013D6CD7F009E4796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43856E5313D6CD7F009E4796 /* Foundation.framework */; };
+		43856E6213D6CD7F009E4796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43856E6113D6CD7F009E4796 /* CoreGraphics.framework */; };
+		43856E6513D6CD7F009E4796 /* libAppmakerLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43856E5013D6CD7F009E4796 /* libAppmakerLibrary.a */; };
+		43856E6B13D6CD7F009E4796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43856E6913D6CD7F009E4796 /* InfoPlist.strings */; };
+		43856E6E13D6CD7F009E4796 /* AppmakerLibraryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 43856E6D13D6CD7F009E4796 /* AppmakerLibraryTests.h */; };
+		43856E7013D6CD7F009E4796 /* AppmakerLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E6F13D6CD7F009E4796 /* AppmakerLibraryTests.m */; };
+		43856E8313D6CDD7009E4796 /* AMAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43856E7F13D6CDD7009E4796 /* AMAlertView.h */; };
+		43856E8413D6CDD7009E4796 /* AMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8013D6CDD7009E4796 /* AMAlertView.m */; };
+		43856E8513D6CDD7009E4796 /* AMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8013D6CDD7009E4796 /* AMAlertView.m */; };
+		43856E8613D6CDD7009E4796 /* AppmakerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 43856E8113D6CDD7009E4796 /* AppmakerHelper.h */; };
+		43856E8713D6CDD7009E4796 /* AppmakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8213D6CDD7009E4796 /* AppmakerHelper.m */; };
+		43856E8813D6CDD7009E4796 /* AppmakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43856E8213D6CDD7009E4796 /* AppmakerHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43856E6313D6CD7F009E4796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43856E4713D6CD7F009E4796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43856E4F13D6CD7F009E4796;
+			remoteInfo = AppmakerLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43856E5013D6CD7F009E4796 /* libAppmakerLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppmakerLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43856E5313D6CD7F009E4796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43856E5713D6CD7F009E4796 /* AppmakerLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppmakerLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		43856E5D13D6CD7F009E4796 /* AppmakerLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppmakerLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43856E5E13D6CD7F009E4796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43856E6113D6CD7F009E4796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43856E6813D6CD7F009E4796 /* AppmakerLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppmakerLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		43856E6A13D6CD7F009E4796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43856E6C13D6CD7F009E4796 /* AppmakerLibraryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppmakerLibraryTests-Prefix.pch"; sourceTree = "<group>"; };
+		43856E6D13D6CD7F009E4796 /* AppmakerLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppmakerLibraryTests.h; sourceTree = "<group>"; };
+		43856E6F13D6CD7F009E4796 /* AppmakerLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppmakerLibraryTests.m; sourceTree = "<group>"; };
+		43856E7F13D6CDD7009E4796 /* AMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAlertView.h; sourceTree = "<group>"; };
+		43856E8013D6CDD7009E4796 /* AMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAlertView.m; sourceTree = "<group>"; };
+		43856E8113D6CDD7009E4796 /* AppmakerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppmakerHelper.h; sourceTree = "<group>"; };
+		43856E8213D6CDD7009E4796 /* AppmakerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppmakerHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43856E4D13D6CD7F009E4796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43856E5413D6CD7F009E4796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43856E5913D6CD7F009E4796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43856E5F13D6CD7F009E4796 /* UIKit.framework in Frameworks */,
+				43856E6013D6CD7F009E4796 /* Foundation.framework in Frameworks */,
+				43856E6213D6CD7F009E4796 /* CoreGraphics.framework in Frameworks */,
+				43856E6513D6CD7F009E4796 /* libAppmakerLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43856E4513D6CD7F009E4796 = {
+			isa = PBXGroup;
+			children = (
+				43856E5513D6CD7F009E4796 /* AppmakerLibrary */,
+				43856E6613D6CD7F009E4796 /* AppmakerLibraryTests */,
+				43856E5213D6CD7F009E4796 /* Frameworks */,
+				43856E5113D6CD7F009E4796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43856E5113D6CD7F009E4796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43856E5013D6CD7F009E4796 /* libAppmakerLibrary.a */,
+				43856E5D13D6CD7F009E4796 /* AppmakerLibraryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43856E5213D6CD7F009E4796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43856E5313D6CD7F009E4796 /* Foundation.framework */,
+				43856E5E13D6CD7F009E4796 /* UIKit.framework */,
+				43856E6113D6CD7F009E4796 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43856E5513D6CD7F009E4796 /* AppmakerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				43856E7F13D6CDD7009E4796 /* AMAlertView.h */,
+				43856E8013D6CDD7009E4796 /* AMAlertView.m */,
+				43856E8113D6CDD7009E4796 /* AppmakerHelper.h */,
+				43856E8213D6CDD7009E4796 /* AppmakerHelper.m */,
+				43856E5613D6CD7F009E4796 /* Supporting Files */,
+			);
+			path = AppmakerLibrary;
+			sourceTree = "<group>";
+		};
+		43856E5613D6CD7F009E4796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43856E5713D6CD7F009E4796 /* AppmakerLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43856E6613D6CD7F009E4796 /* AppmakerLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				43856E6D13D6CD7F009E4796 /* AppmakerLibraryTests.h */,
+				43856E6F13D6CD7F009E4796 /* AppmakerLibraryTests.m */,
+				43856E6713D6CD7F009E4796 /* Supporting Files */,
+			);
+			path = AppmakerLibraryTests;
+			sourceTree = "<group>";
+		};
+		43856E6713D6CD7F009E4796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43856E6813D6CD7F009E4796 /* AppmakerLibraryTests-Info.plist */,
+				43856E6913D6CD7F009E4796 /* InfoPlist.strings */,
+				43856E6C13D6CD7F009E4796 /* AppmakerLibraryTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43856E4E13D6CD7F009E4796 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43856E8313D6CDD7009E4796 /* AMAlertView.h in Headers */,
+				43856E8613D6CDD7009E4796 /* AppmakerHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43856E4F13D6CD7F009E4796 /* AppmakerLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43856E7313D6CD7F009E4796 /* Build configuration list for PBXNativeTarget "AppmakerLibrary" */;
+			buildPhases = (
+				43856E4C13D6CD7F009E4796 /* Sources */,
+				43856E4D13D6CD7F009E4796 /* Frameworks */,
+				43856E4E13D6CD7F009E4796 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppmakerLibrary;
+			productName = AppmakerLibrary;
+			productReference = 43856E5013D6CD7F009E4796 /* libAppmakerLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43856E5C13D6CD7F009E4796 /* AppmakerLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43856E7613D6CD7F009E4796 /* Build configuration list for PBXNativeTarget "AppmakerLibraryTests" */;
+			buildPhases = (
+				43856E5813D6CD7F009E4796 /* Sources */,
+				43856E5913D6CD7F009E4796 /* Frameworks */,
+				43856E5A13D6CD7F009E4796 /* Resources */,
+				43856E5B13D6CD7F009E4796 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43856E6413D6CD7F009E4796 /* PBXTargetDependency */,
+			);
+			name = AppmakerLibraryTests;
+			productName = AppmakerLibraryTests;
+			productReference = 43856E5D13D6CD7F009E4796 /* AppmakerLibraryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43856E4713D6CD7F009E4796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SeitWerk;
+			};
+			buildConfigurationList = 43856E4A13D6CD7F009E4796 /* Build configuration list for PBXProject "AppmakerLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43856E4513D6CD7F009E4796;
+			productRefGroup = 43856E5113D6CD7F009E4796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43856E4F13D6CD7F009E4796 /* AppmakerLibrary */,
+				43856E5C13D6CD7F009E4796 /* AppmakerLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43856E5A13D6CD7F009E4796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43856E6B13D6CD7F009E4796 /* InfoPlist.strings in Resources */,
+				43856E6E13D6CD7F009E4796 /* AppmakerLibraryTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43856E5B13D6CD7F009E4796 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43856E4C13D6CD7F009E4796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43856E8413D6CDD7009E4796 /* AMAlertView.m in Sources */,
+				43856E8713D6CDD7009E4796 /* AppmakerHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43856E5813D6CD7F009E4796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43856E7013D6CD7F009E4796 /* AppmakerLibraryTests.m in Sources */,
+				43856E8513D6CDD7009E4796 /* AMAlertView.m in Sources */,
+				43856E8813D6CDD7009E4796 /* AppmakerHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43856E6413D6CD7F009E4796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43856E4F13D6CD7F009E4796 /* AppmakerLibrary */;
+			targetProxy = 43856E6313D6CD7F009E4796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43856E6913D6CD7F009E4796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43856E6A13D6CD7F009E4796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43856E7113D6CD7F009E4796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43856E7213D6CD7F009E4796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		43856E7413D6CD7F009E4796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/AppmakerLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppmakerLibrary/AppmakerLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43856E7513D6CD7F009E4796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/AppmakerLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppmakerLibrary/AppmakerLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43856E7713D6CD7F009E4796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppmakerLibraryTests/AppmakerLibraryTests-Prefix.pch";
+				INFOPLIST_FILE = "AppmakerLibraryTests/AppmakerLibraryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		43856E7813D6CD7F009E4796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppmakerLibraryTests/AppmakerLibraryTests-Prefix.pch";
+				INFOPLIST_FILE = "AppmakerLibraryTests/AppmakerLibraryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43856E4A13D6CD7F009E4796 /* Build configuration list for PBXProject "AppmakerLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43856E7113D6CD7F009E4796 /* Debug */,
+				43856E7213D6CD7F009E4796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43856E7313D6CD7F009E4796 /* Build configuration list for PBXNativeTarget "AppmakerLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43856E7413D6CD7F009E4796 /* Debug */,
+				43856E7513D6CD7F009E4796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43856E7613D6CD7F009E4796 /* Build configuration list for PBXNativeTarget "AppmakerLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43856E7713D6CD7F009E4796 /* Debug */,
+				43856E7813D6CD7F009E4796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43856E4713D6CD7F009E4796 /* Project object */;
+}
